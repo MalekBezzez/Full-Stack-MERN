@@ -1,0 +1,25 @@
+.decoration{
+    background-color: #fafafa;
+    height: 90px;
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:760px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:21px;
+
+    .icon{
+        height: 28px;
+        width:28px;
+        object-fit: contain;
+        opacity: 0.4;
+
+    }
+
+
+
+
+}

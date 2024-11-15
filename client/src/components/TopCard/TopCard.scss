@@ -1,0 +1,16 @@
+.topcard{
+   width: cover;
+   height:680px ;
+   color:white;
+   border-radius: 5px;
+   cursor: pointer;
+   position:relative;
+
+   .imgtopcard{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+   }
+   
+
+}

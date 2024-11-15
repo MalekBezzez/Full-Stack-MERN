@@ -1,0 +1,58 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  
+    form {
+      width: 1300px;
+      padding: 200px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background-image:url("./img/bg.jpg");
+      background-size: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      
+  
+      h1 {
+        color: gray;
+        margin-bottom: 20px;
+        margin-left: 480px;
+      }
+  
+      label {
+        color: rgb(161, 159, 159);
+        font-size: 18px;
+        margin-left: 480px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+  
+      input
+       {
+        margin-left: 480px;
+        width: 300px;
+        padding: 20px;
+        border: 1px solid rgb(216, 214, 214);
+        border-radius: 25px;
+      }
+  
+      button {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+        margin-left: 505px;
+        width :300px;
+        border: none;
+        padding: 20px;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        background-color:#686868;
+        cursor: pointer;
+        border-radius: 25px;
+      }
+  
+    
+    }
+  }

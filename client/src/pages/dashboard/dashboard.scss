@@ -1,0 +1,31 @@
+.dashboard{
+    padding: 0 7%;
+    padding-top: 110px;
+    h1{
+        background-color: rgba(128, 128, 128, 0.253);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .statbars{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:150px;
+        margin-right: 100px;
+        flex-direction:row;
+        gap: 80px;
+        .stat1 ,.stat2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .title{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+        
+
+    }
+}
